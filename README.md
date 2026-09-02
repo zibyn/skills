@@ -45,18 +45,18 @@ Claude Code 只需把 `.agents/skills` 换成 `.claude/skills`。
 
 | 名称 | 用途 |
 | --- | --- |
-| `code-review` | 从规范和需求两个角度审查改动 |
-| `codebase-design` | 设计更深、更容易测试的模块接口 |
-| `domain-modeling` | 建立术语表和领域决策记录 |
-| `grill-with-docs` | 逐轮追问，并同步写入领域文档 |
-| `grilling` | 压力测试计划、设计或想法 |
-| `handoff` | 把当前对话整理成下一位代理可接手的文档 |
-| `implement` | 根据需求或 spec 实现功能 |
-| `improve-codebase-architecture` | 扫描代码库，生成架构改进报告并逐项追问 |
-| `prototype` | 用一次性原型验证逻辑或界面想法 |
-| `research` | 基于一手资料研究问题并记录来源 |
-| `tdd` | 用测试驱动开发实现功能或修复问题 |
-| `to-spec` | 把当前对话整理成 Markdown spec |
+| `code-review` | 审查代码改动是否符合规范和需求 |
+| `codebase-design` | 设计模块接口，提升可理解性和可测试性 |
+| `domain-modeling` | 明确领域术语、关系和设计决策 |
+| `grill-with-docs` | 通过提问澄清方案，并同步记录文档 |
+| `grilling` | 系统审视计划、设计或想法 |
+| `handoff` | 整理当前工作上下文，生成交接文档 |
+| `implement` | 根据需求或规格说明实现功能 |
+| `improve-codebase-architecture` | 发现架构问题并提出改进方案 |
+| `prototype` | 用一次性原型验证逻辑或界面方案 |
+| `research` | 基于一手资料调查问题并记录结论 |
+| `tdd` | 通过先写测试再实现功能 |
+| `to-spec` | 将当前讨论整理成 Markdown 规格说明 |
 
 安装后，直接告诉代理要使用的技能，例如：
 
