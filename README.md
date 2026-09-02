@@ -1,6 +1,6 @@
 # Skills
 
-一组可直接安装到项目里的 Codex / Claude Code skills。每个子目录都是一个独立技能，入口文件是 `SKILL.md`；安装后即可按技能名称调用。
+面向 Codex 和 Claude Code 的可安装技能集合。每个 `skills/<skill-name>/` 子目录都是一个独立技能，入口文件是 `SKILL.md`。
 
 ## 安装到当前项目
 
@@ -52,6 +52,7 @@ Claude Code 只需把 `.agents/skills` 换成 `.claude/skills`。
 | `grilling` | 压力测试计划、设计或想法 |
 | `handoff` | 把当前对话整理成下一位代理可接手的文档 |
 | `implement` | 根据需求或 spec 实现功能 |
+| `improve-codebase-architecture` | 扫描代码库，生成架构改进报告并逐项追问 |
 | `prototype` | 用一次性原型验证逻辑或界面想法 |
 | `research` | 基于一手资料研究问题并记录来源 |
 | `tdd` | 用测试驱动开发实现功能或修复问题 |
@@ -63,7 +64,7 @@ Claude Code 只需把 `.agents/skills` 换成 `.claude/skills`。
 使用 code-review skill 审查当前分支相对 main 的改动。
 ```
 
-`implement`、`to-spec`、`handoff` 和 `grill-with-docs` 默认不会自动触发，需要明确点名。
+`implement`、`to-spec`、`handoff`、`grill-with-docs` 和 `improve-codebase-architecture` 默认不会自动触发，需要明确点名。
 
 ## 目录结构
 
